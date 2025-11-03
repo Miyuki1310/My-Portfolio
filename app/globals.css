@@ -1,13 +1,15 @@
 @import "tailwindcss";
 
-@tailwind base;
-@tailwind components;
+
 @tailwind utilities;
 
 .container {
   max-width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+}
+
+body {
+  @apply bg-[#0d0d1f] text-white;
 }
 
 

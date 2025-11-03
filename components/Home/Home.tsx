@@ -1,11 +1,13 @@
 import React from 'react'
+import Navbar from '@/components/Home/Navbar/Navbar'
 
-type Props = {}
 
-const Home = (props: Props) => {
+const HomePage = () => {
   return (
-    <div>Home</div>
+    <div className="h-[2000px]">
+      <Navbar/>
+    </div>
   )
 }
 
-export default Home
+export default HomePage
