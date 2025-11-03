@@ -38,7 +38,7 @@ const Navbar: React.FC<NavbarProps> = ({ handleShowNavbar }) => {
                 <h1 className="text-xl md:text-2xl hidden sm:block font-bold">NKH</h1>
             </div>
             <div>
-                <ul className='hidden md:flex items-center justify-between gap-4'>
+                <ul className='hidden lg:flex items-center justify-between gap-4'>
                     {NavLinks.map((item, index) => {
                         return (
                             <li key={index}>
@@ -53,7 +53,7 @@ const Navbar: React.FC<NavbarProps> = ({ handleShowNavbar }) => {
                     <FiDownload className='w-5 h-5 text-white'/>
                     Download CV
                 </button>
-                <button className='p-4 cursor-pointer block md:hidden' onClick={handleShowNavbar}>
+                <button className='p-4 cursor-pointer block lg:hidden' onClick={handleShowNavbar}>
                     <HiBars3BottomRight className='w-8 h-8 text-white'/>
                 </button>
             </div>

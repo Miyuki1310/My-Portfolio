@@ -12,7 +12,7 @@ type Props = {
 const MobileNavbar = ({ showNav, handleShowNavbar } : Props) => {
     const showNavBar = showNav ? 'translate-x-0' : 'translate-x-[100%]';
   return (
-    <div>
+    <div className="relative z-10">
         {/* Overlay */}
         <div className={`fixed inset-0 bg-black opacity-50 ${showNavBar}`}></div>
         <div className={`fixed right-0 top-0 bottom-0 w-3/4 sm:w-3/6 transform bg-[#0d0d1f] transition-all duration-500 flex flex-col px-4 ${showNavBar}`}>
