@@ -7,7 +7,11 @@ import { FiDownload } from 'react-icons/fi'
 import { HiBars3BottomRight } from 'react-icons/hi2'
 
 
-const Navbar = () => {
+interface NavbarProps {
+    handleShowNavbar: () => void;
+}
+
+const Navbar: React.FC<NavbarProps> = ({ handleShowNavbar }) => {
     const [navBg, setNavBg] = React.useState(false);
     useEffect(() => {
         const handleScroll = () => {
@@ -49,7 +53,7 @@ const Navbar = () => {
                     <FiDownload className='w-5 h-5 text-white'/>
                     Download CV
                 </button>
-                <button className='p-4 cursor-pointer block md:hidden'>
+                <button className='p-4 cursor-pointer block md:hidden' onClick={handleShowNavbar}>
                     <HiBars3BottomRight className='w-8 h-8 text-white'/>
                 </button>
             </div>

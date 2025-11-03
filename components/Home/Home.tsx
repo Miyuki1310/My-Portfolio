@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from '@/components/Home/Navbar/Navbar'
+import ResponsiveNavbar from '@/components/Home/Navbar/ResponsiveNavbar'
 
 
 const HomePage = () => {
   return (
     <div className="h-[2000px]">
-      <Navbar/>
+      <ResponsiveNavbar/>
     </div>
   )
 }
