@@ -6,6 +6,12 @@
   margin: 0 auto;
 }
 
+@media (min-width: 768px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
 body {
   @apply bg-[#0d0d1f] text-white;
 }

@@ -11,7 +11,7 @@ const ResponsiveNavbar = () => {
         setShowMobileMenu(prev => !prev);
     }
   return (
-    <div>
+    <div className='relative z-5'>
         <Navbar handleShowNavbar={handleOpenMenu}/>
         <MobileNavbar showNav={showMobileMenu} handleShowNavbar={handleOpenMenu}/>
     </div>

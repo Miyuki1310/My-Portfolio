@@ -11,7 +11,7 @@ const Hero = () => {
     <div className='h-screen flex flex-col items-center justify-center'>
         <ParticleBackground/>
         <div className="flex flex-col gap-6 text-center items-center">
-            <div className="relative w-40 h-40 rounded-full">
+            <div className="relative w-30 h-30  md:w-40 md:h-40 rounded-full">
                 <Image src="/avatar.png" alt="Profile Picture" fill className='rounded-full object-cover'/>
             </div>
             <h1 className='text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold'>Creating web products,
