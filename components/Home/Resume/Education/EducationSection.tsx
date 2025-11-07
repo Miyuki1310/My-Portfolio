@@ -1,6 +1,6 @@
 import { Educations } from '@/constants/constants'
 import React from 'react'
-import EducationCard from './EducationCard'
+import EducationCard from '@/components/Home/Resume/Education/EducationCard'
 
 
 const EducationSection = () => {

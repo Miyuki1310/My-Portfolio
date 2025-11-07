@@ -1,8 +1,8 @@
-import React from 'react'
 import ResponsiveNavbar from '@/components/Home/Navbar/ResponsiveNavbar'
 import Hero from '@/components/Home/Hero/Hero'
 import ServiceSection from '@/components/Home/Service/ServiceSection'
 import ResumeSection from '@/components/Home/Resume/ResumeSection'
+import SkillSection from '@/components/Home/Skills/SkillSection'
 
 
 const HomePage = () => {
@@ -12,6 +12,7 @@ const HomePage = () => {
       <Hero/>
       <ServiceSection/>
       <ResumeSection/>
+      <SkillSection/>
     </div>
   )
 }

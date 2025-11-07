@@ -1,8 +1,9 @@
-import { EducationsType, ExperienceType, NavLinksType, ServiceType } from "@/types/Type";
+import { EducationsType, ExperienceType, NavLinksType, ServiceType, SkillType } from "@/types/Type";
 import { BiCertification } from "react-icons/bi";
 import { FaHome, FaInfo, FaReact, FaTasks } from "react-icons/fa";
 import { FaCodepen } from "react-icons/fa6";
 import { MdOutlineWorkOutline } from "react-icons/md";
+import { SiDotnet, SiExpress, SiGit, SiHtml5, SiJavascript, SiMongodb, SiMysql, SiNextdotjs, SiNodedotjs, SiRabbitmq, SiReact, SiRedux, SiSqlite, SiTailwindcss, SiTypescript } from "react-icons/si";
 
 export const NavLinks: NavLinksType[] = [
     {
@@ -33,21 +34,25 @@ export const NavLinks: NavLinksType[] = [
 
 export const Service: ServiceType[] = [
     {
+        id: 1,
         img: "/s1.png",
         title: "Frontend Development",
         description: "Creating high-performance, user-friendly interfaces that smoothly on every device"
     },
     {
+        id: 2,
         img: "/s2.png",
         title: "Backend Development",
         description: "Building high-performance, scalable, and secure server-side applications and APIs."
     },
     {
+        id: 3,
         img: "/s3.png",
         title: "Fullstack Development",
         description: "Integrating frontend and backend skills to build seamless and full-stack digital solutions"
     },
     {
+        id: 4,
         img: "/s4.png",
         title: "Analysis & Design",
         description: "Developing optimized systems and workflows to improve scalability and speed"
@@ -56,6 +61,7 @@ export const Service: ServiceType[] = [
 
 export const Experiences: ExperienceType[] = [
     {
+        id: 1,
         jobTitle: "Internship developer",
         startDate: new Date("2025-04-09"),
         endDate: new Date("2025-07-09"),
@@ -64,6 +70,7 @@ export const Experiences: ExperienceType[] = [
         icon: FaReact
     },
     {
+        id: 2,
         jobTitle: "Personal projects",
         startDate: new Date("2024-08-01"),
         endDate: new Date(),
@@ -75,6 +82,7 @@ export const Experiences: ExperienceType[] = [
 
 export const Educations: EducationsType[] = [
     {
+        id: 1,
         startDate: new Date("2021-08-01"),
         endDate: new Date("2025-09-25"),
         degree: "Bachelor of Computer Science",
@@ -83,3 +91,95 @@ export const Educations: EducationsType[] = [
         Icon: BiCertification,
     },
 ]
+export const Skills: SkillType[] = [
+  {
+    id: 1,
+    name: "HTML & CSS",
+    level: "Advanced",
+    Icon: SiHtml5,
+  },
+  {
+    id: 2,
+    name: "JavaScript",
+    level: "Advanced",
+    Icon: SiJavascript,
+  },
+  {
+    id: 3,
+    name: "TypeScript",
+    level: "Advanced",
+    Icon: SiTypescript,
+  },
+  {
+    id: 4,
+    name: "React",
+    level: "Advanced",
+    Icon: SiReact,
+  },
+  {
+    id: 5,
+    name: "Next.js",
+    level: "Intermediate",
+    Icon: SiNextdotjs,
+  },
+  {
+    id: 6,
+    name: "Node.js",
+    level: "Intermediate",
+    Icon: SiNodedotjs,
+  },
+  {
+    id: 7,
+    name: "Express.js",
+    level: "Intermediate",
+    Icon: SiExpress,
+  },
+  {
+    id: 8,
+    name: "Tailwind CSS",
+    level: "Advanced",
+    Icon: SiTailwindcss,
+  },
+  {
+    id: 9,
+    name: "Redux",
+    level: "Intermediate",
+    Icon: SiRedux,
+  },
+  {
+    id: 10,
+    name: "MongoDB",
+    level: "Intermediate",
+    Icon: SiMongodb,
+  },
+  {
+    id: 11,
+    name: "MySQL",
+    level: "Advanced",
+    Icon: SiMysql,
+  },
+  {
+    id: 12,
+    name: "SQL Server",
+    level: "Beginner",
+    Icon: SiSqlite,
+  },
+  {
+    id: 13,
+    name: "Git",
+    level: "Beginner",
+    Icon: SiGit,
+  },
+  {
+    id: 14,
+    name: "ASP.NET",
+    level: "Beginner",
+    Icon: SiDotnet,
+  },
+  {
+    id: 15,
+    name: "RabitMQ",
+    level: "Beginner",
+    Icon: SiRabbitmq,
+  }
+];

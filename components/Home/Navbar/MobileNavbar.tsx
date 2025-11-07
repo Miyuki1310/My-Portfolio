@@ -1,6 +1,5 @@
 import { NavLinks } from '@/constants/constants'
 import Link from 'next/link'
-import React from 'react'
 import { IoCloseOutline } from 'react-icons/io5'
 
 type Props = {

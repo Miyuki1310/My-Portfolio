@@ -7,11 +7,13 @@ export type NavLinksType = {
     icon: IconType;
 }
 export type ServiceType = {
+    id: number;
     img: string;
     title: string;
     description: string;
 }
 export type ExperienceType = {
+    id: number;
     jobTitle: string;
     startDate: Date;
     endDate: Date;
@@ -20,10 +22,17 @@ export type ExperienceType = {
     icon: IconType;
 };
 export type EducationsType = {
+    id: number;
     startDate: Date;
     endDate: Date;
     degree: string;
     institution: string;
     description: string;
+    Icon: IconType;
+}
+export type SkillType = {
+    id: number;
+    name: string;
+    level: "Advanced" | "Intermediate" | "Beginner";
     Icon: IconType;
 }

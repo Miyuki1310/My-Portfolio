@@ -1,5 +1,4 @@
 import { Service } from '@/constants/constants'
-import React from 'react'
 import ServiceCard from './ServiceCard'
 
 
@@ -11,9 +10,9 @@ const ServiceSection = () => {
             impactful results
         </h2>
         <div className="grid grid-cols-1 gap-10 mt-15 md:mt-20 items-center sm:grid-cols-2 xl:grid-cols-4">
-            {Service.map((item, index) => {
+            {Service.map((item) => {
                 return (
-                    <ServiceCard key={item.img} img={item.img} title={item.title} description={item.description}/>
+                    <ServiceCard key={item.id} img={item.img} title={item.title} description={item.description}/>
                 )
             })}
         </div>
