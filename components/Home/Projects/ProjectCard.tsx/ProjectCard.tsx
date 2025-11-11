@@ -18,8 +18,8 @@ const ProjectCard = ({startDate, endDate, name, description, img, technologies, 
             <Image
                 src={img}
                 alt={"Project Image"}
-                layout="fill"
-                objectFit="cover"
+                fill
+                className='object-cover'
             />
         </div>
         <div>

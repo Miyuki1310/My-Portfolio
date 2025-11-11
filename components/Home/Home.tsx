@@ -4,6 +4,7 @@ import ServiceSection from '@/components/Home/Service/ServiceSection'
 import ResumeSection from '@/components/Home/Resume/ResumeSection'
 import SkillSection from '@/components/Home/Skills/SkillSection'
 import ProjectSection from '@/components/Home/Projects/ProjectSection'
+import ConnectSection from '@/components/Home/Connect/ConnectSection'
 
 
 const HomePage = () => {
@@ -15,6 +16,7 @@ const HomePage = () => {
       <ResumeSection/>
       <SkillSection/>
       <ProjectSection/>
+      <ConnectSection/>
     </div>
   )
 }

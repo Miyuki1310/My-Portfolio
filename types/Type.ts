@@ -46,3 +46,10 @@ export type ProjectType = {
     img: string;
     link?: string;
 }
+
+export type ConnectFormData = {
+    name: string;
+    email: string;
+    phone: string;
+    message: string;
+}
