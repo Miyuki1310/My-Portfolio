@@ -1,4 +1,4 @@
-import { EducationsType, ExperienceType, NavLinksType, ServiceType, SkillType } from "@/types/Type";
+import { EducationsType, ExperienceType, NavLinksType, ProjectType, ServiceType, SkillType } from "@/types/Type";
 import { BiCertification } from "react-icons/bi";
 import { FaHome, FaInfo, FaReact, FaTasks } from "react-icons/fa";
 import { FaCodepen } from "react-icons/fa6";
@@ -183,3 +183,41 @@ export const Skills: SkillType[] = [
     Icon: SiRabbitmq,
   }
 ];
+
+export const Projects: ProjectType[] = [
+  {
+    startDate: new Date("2024-08-01"),
+    endDate: new Date("2024-09-01"),
+    name: "Chat Application",
+    description: "A real-time chat application using React, Node.js, and Socket.io that allows users to communicate in group and private chat rooms.",
+    technologies: ["React", "Node.js", "Expressjs", "Socket.io", "MongoDB", "Tailwind CSS"],
+    link: "https://github.com/Miyuki1310/ChatAppMern.git",
+    img: "/chatapp.jpg"
+  },
+  {
+    startDate: new Date("2024-12-18"),
+    endDate: new Date("2025-01-15"),
+    name: "Real Estate Marketplace",
+    description: "A full-stack real estate marketplace application that enables users to browse, list, and manage property listings.",
+    technologies: ["React.js", "TypeScript", "Node.js", "MongoDB", "Tailwind CSS", "Firebase"],
+    link: "https://github.com/Miyuki1310/RealEstateMarketplace.git",
+    img: "/realestate.jpg"
+  },
+  {
+    startDate: new Date("2025-04-09"),
+    endDate: new Date("2025-07-09"),
+    name: "CRM System",
+    description: "A Customer Relationship Management (CRM) system developed during my internship at Opus Solutions to help businesses manage customer interactions and data.",
+    technologies: ["React", "TypeScript", "ASP.NET", "Shadcn UI", "SQL Server", "I18next"],
+    img: "/CRM.png"
+  },
+  {
+    startDate: new Date("2025-04-09"),
+    endDate: new Date("2025-07-09"),
+    name: "Landing Page",
+    description: "A responsive landing page created during my internship at Opus Solutions to promote their services and capture leads.",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "I18next"],
+    link: "https://tasken.io/en",
+    img: "/landingpage.jpg"
+  }
+]

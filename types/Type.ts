@@ -36,3 +36,13 @@ export type SkillType = {
     level: "Advanced" | "Intermediate" | "Beginner";
     Icon: IconType;
 }
+
+export type ProjectType = {
+    startDate: Date;
+    endDate: Date;
+    name: string;
+    description: string;
+    technologies: string[];
+    img: string;
+    link?: string;
+}
