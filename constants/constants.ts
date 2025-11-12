@@ -14,19 +14,25 @@ export const NavLinks: NavLinksType[] = [
     },
     {
         id: 2,
-        url: "/about",
-        label: "About",
+        url: "#services",
+        label: "Services",
         icon: FaInfo,
     },
     {
         id: 3,
-        url: "/skills",
+        url: "#experience",
+        label: "Experience",
+        icon: MdOutlineWorkOutline
+    },
+    {
+        id: 4,
+        url: "#skills",
         label: "Skills",
         icon: FaTasks
     },
     {
-        id: 4,
-        url: "/projects",
+        id: 5,
+        url: "#projects",
         label: "Projects",
         icon: MdOutlineWorkOutline
     }

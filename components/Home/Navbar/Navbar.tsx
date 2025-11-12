@@ -1,5 +1,6 @@
 'use client'
 import { NavLinks } from '@/constants/constants'
+import { handleDownloadCV } from '@/Helper/formatDate'
 import Link from 'next/link'
 import React, { useEffect } from 'react'
 import { FaCode } from 'react-icons/fa'
@@ -49,11 +50,11 @@ const Navbar: React.FC<NavbarProps> = ({ handleShowNavbar }) => {
                 </ul>
             </div>
             <div className='flex items-center gap-2 sm:gap-4'>
-                <button className='px-3 py-4 bg-blue-800 rounded-lg flex items-center gap-1 hover:bg-blue-900 cursor-pointer transition-all duration-300 text-sm sm:text-base sm:px-8 sm:gap-3'>
+                <button onClick={() => handleDownloadCV("/CV/NguyenKhanhHuan_Fullstack-Developer_CV.pdf")} className='px-3 py-4 bg-blue-800 rounded-lg flex items-center gap-1 hover:bg-blue-900 cursor-pointer transition-all duration-300 text-sm sm:text-base sm:px-8 sm:gap-3'>
                     <FiDownload className='w-5 h-5 text-white'/>
                     Download CV
                 </button>
-                <button className='p-3 cursor-pointer block sm:p-4 lg:hidden' onClick={handleShowNavbar}>
+                <button className='p-3 cursor-pointer block lg:hidden' onClick={handleShowNavbar}>
                     <HiBars3BottomRight className='w-8 h-8 text-white'/>
                 </button>
             </div>

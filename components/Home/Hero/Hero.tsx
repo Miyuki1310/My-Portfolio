@@ -59,7 +59,7 @@ const Hero = () => {
                 className="mt-6"
             >
                 <Link href="#projects" className='inline-flex items-center gap-2 px-6 py-3 bg-cyan-200 text-blue-950 font-semibold rounded-full hover:bg-cyan-300 transition duration-300'>
-                    View My Work <MdArrowRightAlt className='w-5 h-5'/>
+                    View My Github <MdArrowRightAlt className='w-5 h-5'/>
                 </Link>
             </motion.div>
         </div>

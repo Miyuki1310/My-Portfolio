@@ -4,7 +4,7 @@ import ServiceCard from './ServiceCard'
 
 const ServiceSection = () => {
   return (
-    <div className='container py-16'>
+    <div id='services' className='container py-25'>
         <h2 className='text-center text-2xl sm:text-4xl xl:text-5xl font-bold'>Colleborate with brand <br/>
             and agencies to create <br/>
             impactful results

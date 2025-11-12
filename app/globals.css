@@ -16,4 +16,8 @@ body {
   @apply bg-[#0d0d1f] text-white;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 

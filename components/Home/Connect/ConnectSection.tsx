@@ -23,7 +23,7 @@ const ConnectSection = () => {
         console.log(data);
     }
   return (
-    <div className='container grid grid-cols-1 md:grid-cols-2 gap-10 items-center py-16'>
+    <div id='connect' className='container grid grid-cols-1 lg:grid-cols-2 gap-10 items-center py-25'>
         <div className="flex flex-col gap-4">
             <h2 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-200'>Schedule a call with me to see if I can help</h2>
             <p className='text-gray-400 text-base sm:text-lg'>Reach out to me through my phone/email today and let’s discuss how I can help you achieve your goals.</p>
