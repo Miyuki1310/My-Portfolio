@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-// TypeScript does not have module declarations for CSS side-effect imports in this project;
-// ignore the next line to avoid a compile error until a proper *.d.ts is added.
- // @ts-expect-error: Cannot find module or type declarations for side-effect import of './globals.css'.
-import "./globals.css";
+import "@/app/globals.css";
 import ScrollToTopButton from "@/components/ui/ScrollToTopButton";
 
 const font = Inter({
