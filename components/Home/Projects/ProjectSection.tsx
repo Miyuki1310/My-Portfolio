@@ -1,6 +1,5 @@
 import { Projects } from '@/constants/constants'
-import React from 'react'
-import ProjectCard from './ProjectCard.tsx/ProjectCard'
+import ProjectCard from '@/components/Home/Projects/ProjectCard/ProjectCard'
 
 
 const ProjectSection = () => {

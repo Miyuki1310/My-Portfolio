@@ -2,7 +2,7 @@
 import { formatDateToMonthYear } from '@/Helper/formatDate'
 import { ProjectType } from '@/types/Type'
 import Image from 'next/image'
-import TechnologyTags from './TechnologyTags'
+import TechnologyTags from '@/components/Home/Projects/ProjectCard/TechnologyTags'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 

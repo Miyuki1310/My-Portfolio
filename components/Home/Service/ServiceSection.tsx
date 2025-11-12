@@ -1,5 +1,5 @@
 import { Service } from '@/constants/constants'
-import ServiceCard from './ServiceCard'
+import ServiceCard from '@/components/Home/Service/ServiceCard'
 
 
 const ServiceSection = () => {

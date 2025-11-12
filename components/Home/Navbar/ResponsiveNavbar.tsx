@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
-import Navbar from './Navbar';
-import MobileNavbar from './MobileNavbar';
+import Navbar from '@/components/Home/Navbar/Navbar';
+import MobileNavbar from '@/components/Home/Navbar/MobileNavbar';
 
 
 const ResponsiveNavbar = () => {

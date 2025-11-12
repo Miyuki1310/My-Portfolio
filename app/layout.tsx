@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 // ignore the next line to avoid a compile error until a proper *.d.ts is added.
  // @ts-expect-error: Cannot find module or type declarations for side-effect import of './globals.css'.
 import "./globals.css";
+import ScrollToTopButton from "@/components/ui/ScrollToTopButton";
 
 const font = Inter({
   weight: ["400", "700"],
@@ -28,6 +29,7 @@ export default function RootLayout({
         className={`${font.className} antialiased`}
       >
         {children}
+        <ScrollToTopButton/>
       </body>
     </html>
   );

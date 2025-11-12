@@ -1,6 +1,6 @@
 'use client'
 import { NavLinks } from '@/constants/constants'
-import { handleDownloadCV } from '@/Helper/formatDate'
+import { handleDownloadCV } from '@/Helper/downloadCV'
 import Link from 'next/link'
 import React, { useEffect } from 'react'
 import { FaCode } from 'react-icons/fa'
