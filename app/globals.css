@@ -14,10 +14,12 @@
 
 body {
   @apply bg-[#0d0d1f] text-white;
+  overflow-x: hidden;
 }
 
 html{
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 

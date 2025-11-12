@@ -26,11 +26,24 @@ export default function ParticleBackground() {
   }
 
   return (
+  <div
+    id="particles-wrapper"
+    style={{
+      position: "fixed",
+      top: 0,
+      left: 0,
+      width: "100%",
+      height: "100%",
+      overflow: "hidden",
+      zIndex: -1,
+    }}
+  >
     <Particles
       id="tsparticles"
       options={{
-        fullScreen: { enable: true, zIndex: -1 },
+        fullScreen: { enable: false }, // tắt fullscreen của tsparticles
         fpsLimit: 120,
+        background: { color: "#0d0d1f" },
         particles: {
           number: { value: 80, density: { enable: true } },
           color: { value: "#ffffff" },
@@ -47,8 +60,9 @@ export default function ParticleBackground() {
           },
           modes: { repulse: { distance: 100 }, push: { quantity: 4 } },
         },
-        background: { color: "#0d0d1f" },
       }}
     />
-  );
+  </div>
+);
+
 }
